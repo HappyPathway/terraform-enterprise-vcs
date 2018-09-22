@@ -1,0 +1,11 @@
+{
+    "data": {
+      "type": "oauth-clients",
+      "attributes": {
+        "service-provider": "${service_provider}",
+        "http-url": "${http_url}",
+        "api-url": "${api_url}",
+        "oauth-token-string": "${personal_access_token}"
+      }
+    }
+  }
