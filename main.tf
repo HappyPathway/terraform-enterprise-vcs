@@ -19,3 +19,7 @@ data "external" "module_publish" {
     tfe_token = "${var.tfe_token}"
   }
 }
+
+output "oauth_token" {
+  value = "${data.external.module_publish.result["oauth_token"]}"
+}
